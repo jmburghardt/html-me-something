@@ -1,13 +1,44 @@
 h3 {
     padding: 10px;
 }
+header {
+    background-color: olivedrab;
+    text-align: center;
+}
+header ul li {
+    display: inline-block;
+    padding: .5em;
+}
 img, figcaption {
     font-family: monospace;
     margin: 0;
 }
+article {
+    background-color: olivedrab;
+}
 ork {
     color: darkgreen;
+    font-style: oblique;
 }
 body {
-    background-color: olivedrab;
+    background-color: green;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1024px;
+}
+.section_title {
+    color: rgb(129, 6, 6);
+}
+a:link {
+    text-decoration: none; 
+}
+a:hover {
+    font-style: italic;
+    color: rgb(35, 78, 35);
+}
+a:visited {
+    color: rgb(24, 24, 136);
+}
+#legend {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
